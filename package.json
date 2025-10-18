@@ -1,0 +1,15 @@
+{
+  "name": "wedresenhasite",
+  "version": "1.0.0",
+  "description": "Site do grupo com chat em tempo real (Socket.IO) e persistência local",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
